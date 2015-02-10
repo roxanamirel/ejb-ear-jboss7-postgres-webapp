@@ -1,0 +1,36 @@
+.table {
+ border-collapse: collapse;
+}
+ 
+.tableColumnsHeader {
+ text-align: center;
+ background: none repeat scroll 0 0 #E5E5E5;
+ border-bottom: 1px solid #BBBBBB;
+ padding: 16px;
+}
+ 
+.tableFirstLine {
+ text-align: center;
+ background: none repeat scroll 0 0 #F9F9F9;
+ border-top: 1px solid #BBBBBB;
+}
+ 
+.tableNextLine {
+ text-align: center;
+ background: none repeat scroll 0 0 #FFFFFFF;
+ border-top: 1px solid #BBBBBB;
+}
+ 
+.panelGrid {
+ border: 1px solid;
+}
+ 
+.panelFirstLine {
+ text-align: center;
+ border-top: 1px solid #BBBBBB;
+}
+ 
+.panelNextLine {
+ text-align: center;
+ border-top: 1px solid #BBBBBB;
+}

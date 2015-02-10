@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<faces-config
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd"
+    version="2.0">
+ 
+ <navigation-rule>
+  <navigation-case>
+   <from-outcome>logout</from-outcome>
+   <to-view-id>/pages/protected/user/listAllDVDS.xhtml</to-view-id>
+   <redirect/>
+  </navigation-case>
+ </navigation-rule>
+ <navigation-rule>
+  <navigation-case>
+   <from-outcome>listAllDVDS</from-outcome>
+   <to-view-id>/pages/protected/user/listAllDVDS.xhtml</to-view-id>
+  </navigation-case>
+ </navigation-rule>
+ <navigation-rule>
+  <navigation-case>
+   <from-outcome>createDVD</from-outcome>
+   <to-view-id>/pages/protected/admin/createDVD.xhtml</to-view-id>
+   <redirect/>
+  </navigation-case>
+ </navigation-rule>
+ <navigation-rule>
+  <navigation-case>
+   <from-outcome>updateDVD</from-outcome>
+   <to-view-id>/pages/protected/admin/updateDVD.xhtml</to-view-id>
+  </navigation-case>
+ </navigation-rule>
+ <navigation-rule>
+  <navigation-case>
+   <from-outcome>deleteDVD</from-outcome>
+   <to-view-id>/pages/protected/admin/deleteDVD.xhtml</to-view-id>
+  </navigation-case>
+ </navigation-rule>
+ 
+  <navigation-rule>
+  <navigation-case>
+   <from-outcome>buyDVD</from-outcome>
+   <to-view-id>/pages/protected/user/buyDVD.xhtml</to-view-id>
+  </navigation-case>
+ </navigation-rule>
+ 
+   <navigation-rule>
+  <navigation-case>
+   <from-outcome>register</from-outcome>
+   <to-view-id>/pages/public/register.xhtml</to-view-id>
+  </navigation-case>
+ </navigation-rule>
+ 
+   <navigation-rule>
+  <navigation-case>
+   <from-outcome>login</from-outcome>
+   <to-view-id>/pages/public/login.xhtml</to-view-id>
+  </navigation-case>
+ </navigation-rule>
+ 
+ 
+ 
+ <application>
+  <resource-bundle>
+   <base-name>messages</base-name>
+   <var>msgs</var>
+  </resource-bundle>
+ </application>
+</faces-config>
+    

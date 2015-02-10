@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:" SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::0" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="logout::#pages#protected#user#listAllDVDS.xhtml" NAME="output"
+    PATH="/pages/protected/user/listAllDVDS.xhtml"
+    TARGET="rules:#pages#protected#user#listAllDVDS.xhtml"
+    TITLE="logout" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules::1" SHAPE="32,129,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::1" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="listAllDVDS::#pages#protected#user#listAllDVDS.xhtml"
+    NAME="output" PATH="/pages/protected/user/listAllDVDS.xhtml"
+    TARGET="rules:#pages#protected#user#listAllDVDS.xhtml"
+    TITLE="listAllDVDS" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules::2" SHAPE="32,241,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::2" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="createDVD::#pages#protected#admin#createDVD.xhtml" NAME="output"
+    PATH="/pages/protected/admin/createDVD.xhtml"
+    TARGET="rules:#pages#protected#admin#createDVD.xhtml"
+    TITLE="createDVD" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules::3" SHAPE="32,353,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::3" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="updateDVD::#pages#protected#admin#updateDVD.xhtml" NAME="output"
+    PATH="/pages/protected/admin/updateDVD.xhtml"
+    TARGET="rules:#pages#protected#admin#updateDVD.xhtml"
+    TITLE="updateDVD" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules::4" SHAPE="32,465,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::4" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="deleteDVD::#pages#protected#admin#deleteDVD.xhtml" NAME="output"
+    PATH="/pages/protected/admin/deleteDVD.xhtml"
+    TARGET="rules:#pages#protected#admin#deleteDVD.xhtml"
+    TITLE="deleteDVD" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#protected#user#listAllDVDS.xhtml"
+  PATH="/pages/protected/user/listAllDVDS.xhtml" SHAPE="240,145,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#protected#admin#createDVD.xhtml"
+  PATH="/pages/protected/admin/createDVD.xhtml" SHAPE="240,257,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#protected#admin#updateDVD.xhtml"
+  PATH="/pages/protected/admin/updateDVD.xhtml" SHAPE="240,369,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#protected#admin#deleteDVD.xhtml"
+  PATH="/pages/protected/admin/deleteDVD.xhtml" SHAPE="240,481,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules::5" SHAPE="32,577,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::5" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="buyDVD::#pages#protected#user#buyDVD.xhtml"
+    NAME="output" PATH="/pages/protected/user/buyDVD.xhtml"
+    TARGET="rules:#pages#protected#user#buyDVD.xhtml" TITLE="buyDVD" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#protected#user#buyDVD.xhtml"
+  PATH="/pages/protected/user/buyDVD.xhtml" SHAPE="240,593,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules::6" SHAPE="32,689,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::6" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="register::#pages#public#register.xhtml"
+    NAME="output" PATH="/pages/public/register.xhtml"
+    TARGET="rules:#pages#public#register.xhtml" TITLE="register" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules::7" SHAPE="32,801,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules::7" NAME="item" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="login::#pages#public#login.xhtml"
+    NAME="output" PATH="/pages/public/login.xhtml"
+    TARGET="rules:#pages#public#login.xhtml" TITLE="login" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#public#login.xhtml"
+  PATH="/pages/public/login.xhtml" SHAPE="240,817,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#pages#public#register.xhtml"
+  PATH="/pages/public/register.xhtml" SHAPE="240,705,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>

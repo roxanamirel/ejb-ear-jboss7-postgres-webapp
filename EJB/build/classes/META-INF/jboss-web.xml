@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jboss-web>
+ <!-- URL to access the web module -->
+ <context-root>CrudJSF</context-root>
+ <!-- Realm that will be used -->
+ <security-domain>other</security-domain>
+</jboss-web>

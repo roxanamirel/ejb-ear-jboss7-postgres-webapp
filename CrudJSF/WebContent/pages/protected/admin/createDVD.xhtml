@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'
+  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'
+ xmlns:f='http://java.sun.com/jsf/core'
+ xmlns:h='http://java.sun.com/jsf/html'
+ xmlns:ui='http://java.sun.com/jsf/facelets'>
+<h:head>
+ <h:outputStylesheet library='css' name='main.css' />
+</h:head>
+<h:body>
+ <h:form>
+  <h:messages/>
+ 
+  <h3>${msgs.dvdCreateHeader}</h3>
+  <h:panelGrid columns='2' styleClass='panelGrid' rowClasses='panelFirstLine,panelNextLine' >
+   <h:outputLabel for='dvdName' value='#{msgs.dvdName}' />
+   <h:inputText id='dvdName' value='#{dvdMB.DVD.name}' required='true' requiredMessage='#{msgs.dvdNameRequired}' />
+ 
+   <h:outputLabel for='dvdPrice' value='#{msgs.dvdPrice}' />
+   <h:inputText id='dvdPrice' value='#{dvdMB.DVD.price}' required='true' requiredMessage='#{msgs.dvdPriceRequired}' >
+    <f:convertNumber />
+   </h:inputText>
+  </h:panelGrid>
+  <h:panelGrid columns='2'>
+   <h:commandButton action='#{dvdMB.createDVDEnd()}' value='#{msgs.create}' />
+   <h:commandButton action='#{dvdMB.listAllDVDs()}' value='#{msgs.cancel}' immediate='true' />
+  </h:panelGrid>
+  <br/>
+ </h:form>
+</h:body>
+</html>
